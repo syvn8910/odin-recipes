@@ -1,58 +1,98 @@
-# Project Title
+# Odin Recipes
 
-Simple overview of use/purpose.
+## Project Overview
 
-## Description
+**Odin Recipes** is a beginner-friendly HTML project created as part of **The Odin Project Foundations Course**. The goal of this project is to practice basic web development concepts by building a simple recipe website using only HTML.
 
-An in-depth paragraph about your project and overview of use.
+The website consists of a main homepage that links to several recipe pages. Each recipe page contains an image, description, ingredients list, and step-by-step instructions for preparing the dish.
 
-## Getting Started
+This project focuses on learning and reinforcing:
+* HTML document structure
+* Headings and paragraphs
+* Lists (ordered and unordered)
+* Images
+* Hyperlinks
+* File and folder organization
+* Relative file paths
+* Website navigation
 
-### Dependencies
+## Features
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+### Homepage
+* Displays the title **"Odin Recipes"**
+* Contains links to all recipe pages
+* Uses an unordered list for organized navigation
 
-### Installing
+### Recipe Pages
+* Recipe title
+* Image of the finished dish
+* Description section
+* Ingredients section
+* Step-by-step cooking instructions
+* Navigation link back to the homepage
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+## Project Structure
+```text
+odin-recipes/
+│
+├── index.html
+│
+└── recipes/
+    ├── lasagna.html
+    ├── blueberry-cheesecake.html
+    └── chicken-corn-chowder.html
+```
+## Sample Recipe Pages
 
-### Executing program
+### Chicken Corn Chowder
+A rich and hearty soup made with chicken, corn, vegetables, and cream.
 
-* How to run the program
-* Step-by-step bullets
-code blocks for commands
+### Lasagna
+A classic Italian pasta dish made with layers of pasta, meat sauce, cheese, and seasonings.
 
-## Help
+### Blueberry Cheesecake
+A creamy cheesecake topped with sweet blueberry sauce and a crunchy graham cracker crust.
 
-Any advise for common problems or issues.
-command to run if program contains helper info
+## Technologies Used
+* HTML5
+No CSS or JavaScript was used in this project, as the focus is on practicing core HTML concepts.
 
-## Authors
+## Learning Objectives
+By completing this project, I learned how to:
 
-Contributors names and contact info
+* Create properly structured HTML documents
+* Organize files and folders within a project
+* Use relative links between pages
+* Display images on web pages
+* Create ordered and unordered lists
+* Build multi-page websites
+* Improve website navigation
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+## Future Improvements
+Possible enhancements for future versions include:
 
-## Version History
+* Adding CSS styling
+* Improving page layout and design
+* Making the website responsive
+* Adding more recipes
+* Creating a navigation menu
+* Including nutrition information
+* Adding cooking tips and preparation times
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+## How to Run the Project
+1. Download or clone the repository.
+2. Open the `odin-recipes` folder.
+3. Open `index.html` in any web browser.
+4. Click the recipe links to navigate between pages.
 
-## License
+## Acknowledgements
+This project was completed as part of:
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+**The Odin Project**
+https://www.theodinproject.com/
+The recipe images and recipe information are used for educational purposes.
 
-## Acknowledgments
+## Author
+Created by: **Via Cabactulan**
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+As part of my web development learning journey through The Odin Project.
