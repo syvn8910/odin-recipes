@@ -38,9 +38,9 @@ odin-recipes/
 ├── index.html
 │
 └── recipes/
+    ├── chicken-corn-chowder.html
     ├── lasagna.html
-    ├── blueberry-cheesecake.html
-    └── chicken-corn-chowder.html
+    └── blueberry-cheesecake.html
 ```
 ## Sample Recipe Pages
 
